@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es6",
+    "allowJs": true,
+    "baseUrl": ".",
+    "declaration": true
+  },
+  "include": ["index.ts", "test"]
+}

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`query() tests should be able to query by id (line number minus 1) 1`] = `
+[
+  {
+    "id": 360912,
+    "serviceId": 53884,
+    "tagId": 607,
+  },
+  {
+    "id": 3,
+    "name": "eastus",
+  },
+]
+`;
+
+exports[`query() tests should return one result (partial query) 1`] = `
+[
+  {
+    "classTagId": 2,
+    "id": 95,
+    "lengthTagId": 1,
+    "optionTagId": 3,
+    "termId": 1,
+    "unitId": 11,
+    "usageId": 1,
+    "usd": 0.1,
+  },
+]
+`;
+
+exports[`query() tests should return two results (full query) 1`] = `
+[
+  {
+    "classTagId": 2,
+    "id": 4,
+    "lengthTagId": 1,
+    "optionTagId": 3,
+    "termId": 1,
+    "unitId": 4,
+    "usageId": 2,
+    "usd": 0.0003,
+  },
+  {
+    "classTagId": 538,
+    "id": 83061,
+    "lengthTagId": 540,
+    "optionTagId": 539,
+    "termId": 5,
+    "unitId": 58,
+    "usageId": 1,
+    "usd": 1002729,
+  },
+]
+`;
+
+exports[`query() tests should return two results (partial query - scan) 1`] = `
+[
+  {
+    "classTagId": 2,
+    "id": 95,
+    "lengthTagId": 1,
+    "optionTagId": 3,
+    "termId": 1,
+    "unitId": 11,
+    "usageId": 1,
+    "usd": 0.1,
+  },
+  {
+    "classTagId": 2,
+    "id": 140254,
+    "lengthTagId": 1,
+    "optionTagId": 6427,
+    "termId": 1,
+    "unitId": 11,
+    "usageId": 1,
+    "usd": 0.1,
+  },
+]
+`;

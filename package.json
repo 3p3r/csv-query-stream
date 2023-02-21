@@ -1,0 +1,48 @@
+{
+  "name": "csv-query-stream",
+  "version": "1.0.0",
+  "description": "Query large compressed CSV documents using NodeJS streams.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "node -e 'require(`assert`)(__dirname.endsWith(`dist`),`->> run in ./dist <<-`)'",
+    "test": "jest --runInBand --ci",
+    "build": "npx tsc --emitDeclarationOnly && webpack --mode production",
+    "lint": "rome check *.ts",
+    "format": "rome format *.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3p3r/csv-query-stream.git"
+  },
+  "keywords": [
+    "csv",
+    "query",
+    "stream",
+    "streaming",
+    "fast",
+    "zip"
+  ],
+  "author": "Sepehr Laal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3p3r/csv-query-stream/issues"
+  },
+  "homepage": "https://github.com/3p3r/csv-query-stream#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.1",
+    "@types/papaparse": "^5.3.7",
+    "copy-webpack-plugin": "^11.0.0",
+    "jest": "^29.4.3",
+    "node-stream-zip": "^1.15.0",
+    "papaparse": "^5.3.2",
+    "rome": "^11.0.0",
+    "ts-jest": "^29.0.5",
+    "ts-loader": "^9.4.2",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

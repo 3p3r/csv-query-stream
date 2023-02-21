@@ -1,0 +1,14 @@
+{
+  "linter": {
+    "rules": {
+      "performance": {
+        "noDelete": "off"
+      }
+    }
+  },
+  "formatter": {
+    "ignore": [
+      "*.d.ts"
+    ]
+  }
+}
